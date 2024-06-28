@@ -20,4 +20,72 @@ body {
 
 img {
     display: block;
+	width: 150px;
+    height: 100px;
+  
 }
+
+.profile-container {
+            display: inline-flexbox;
+            justify-content:flex-end;
+            margin:10px;
+			margin-top: -10px;
+			height: -500px
+        }
+
+.profile-stats {
+            
+   
+            margin-left: 300px;
+            padding: 0px;
+ 
+ 
+        }  
+
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}		
+ 
+.circle-border {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #3a7b60;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+ 
+.circle-border img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  margin: 30px;
+  padding: 50px;
+  font-size: -500px;
+}
+
+
